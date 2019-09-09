@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">IoTDeviceManager</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="no_login">Not logged in</string>
+    <string name="connected_device">Connected device: %1$s</string>
+    <string name="no_connected_device">No device connected</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="installable_apps">Installable apps</string>
+    <string name="compatible_apps">Compatible apps</string>
+    <string name="developer">Developer</string>
+    <string name="user">User</string>
+    <string name="technician">Technician</string>
+    <string name="logout">Logout</string>
+    <string name="apps">Apps</string>
+    <string name="installed_apps">Installed apps</string>
+    <string name="install">Install</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="register">Register</string>
+    <string name="unregister">Unregister</string>
+    <string name="access_app">Access app</string>
+    <string name="restart_container">Restart container</string>
+</resources>

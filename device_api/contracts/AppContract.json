@@ -1,0 +1,252 @@
+[
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "appGuid",
+				"type": "uint128"
+			}
+		],
+		"name": "appExists",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "appGuid",
+				"type": "uint128"
+			}
+		],
+		"name": "eliminateApp",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "appGuid",
+				"type": "uint128"
+			}
+		],
+		"name": "getChecksum",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "accountsContractAddress",
+				"type": "address"
+			}
+		],
+		"name": "setAccountsContractAddress",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "appGuid",
+				"type": "uint128"
+			}
+		],
+		"name": "getSubscriptionPrice",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "appGuid",
+				"type": "uint128"
+			},
+			{
+				"name": "checksum",
+				"type": "uint256"
+			}
+		],
+		"name": "setChecksum",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "appGuid",
+				"type": "uint128"
+			},
+			{
+				"name": "myAppServerAddress",
+				"type": "string"
+			},
+			{
+				"name": "myChecksum",
+				"type": "uint256"
+			},
+			{
+				"name": "mySubscriptionDuration",
+				"type": "uint32"
+			},
+			{
+				"name": "mySubscriptionPrice",
+				"type": "uint256"
+			}
+		],
+		"name": "registerApp",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "appGuid",
+				"type": "uint128"
+			}
+		],
+		"name": "getSubscriptionDuration",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint32"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "appGuid",
+				"type": "uint128"
+			}
+		],
+		"name": "getDeveloper",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "appGuid",
+				"type": "uint128"
+			},
+			{
+				"name": "price",
+				"type": "uint256"
+			}
+		],
+		"name": "setSubscriptionPrice",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "appGuid",
+				"type": "uint128"
+			}
+		],
+		"name": "getServerAddress",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "appGuid",
+				"type": "uint128"
+			},
+			{
+				"name": "serverAddress",
+				"type": "string"
+			}
+		],
+		"name": "setServerAddress",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "appGuid",
+				"type": "uint128"
+			},
+			{
+				"name": "duration",
+				"type": "uint32"
+			}
+		],
+		"name": "setSubscriptionDuration",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	}
+]

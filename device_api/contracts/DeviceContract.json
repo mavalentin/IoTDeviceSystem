@@ -1,0 +1,158 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "typeGuid",
+				"type": "uint128"
+			},
+			{
+				"name": "appsList",
+				"type": "uint128[]"
+			}
+		],
+		"name": "setCompatibleApplications",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "deviceGuid",
+				"type": "uint128"
+			}
+		],
+		"name": "getDeviceAddress",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "deviceGuid",
+				"type": "uint128"
+			}
+		],
+		"name": "getCompatibleApps",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint128[]"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "deviceGuid",
+				"type": "uint128"
+			},
+			{
+				"name": "myDeviceBlockchainAddress",
+				"type": "address"
+			},
+			{
+				"name": "myDeviceAddress",
+				"type": "string"
+			},
+			{
+				"name": "myType",
+				"type": "uint128"
+			}
+		],
+		"name": "registerDevice",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "deviceGuid",
+				"type": "uint128"
+			},
+			{
+				"name": "myType",
+				"type": "uint128"
+			}
+		],
+		"name": "setDeviceType",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "deviceGuid",
+				"type": "uint128"
+			}
+		],
+		"name": "unregisterDevice",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "deviceGuid",
+				"type": "uint128"
+			},
+			{
+				"name": "myDeviceBlockchainAddress",
+				"type": "address"
+			}
+		],
+		"name": "setDeviceBlockchainAddress",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "deviceGuid",
+				"type": "uint128"
+			},
+			{
+				"name": "myDeviceAddress",
+				"type": "string"
+			}
+		],
+		"name": "setDeviceAddress",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	}
+]

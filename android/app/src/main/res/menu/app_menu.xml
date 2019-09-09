@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/restart_container"
+        android:title="@string/restart_container" />
+    <item
+        android:id="@+id/access_app"
+        android:title="@string/access_app" />
+    <item
+        android:id="@+id/install"
+        android:title="@string/install" />
+    <item
+        android:id="@+id/uninstall"
+        android:title="@string/uninstall" />
+    <item
+        android:id="@+id/register_to_app"
+        android:title="@string/register" />
+    <item
+        android:id="@+id/unregister_from_app"
+        android:title="@string/unregister" />
+</menu>

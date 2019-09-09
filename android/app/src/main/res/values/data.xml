@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nodeIP">https://ropsten.infura.io/v3/xxxxxxxxxxxxxxxxxxxxxxxxxxxx</string> <!--for emulator http://10.0.2.2:7545-->
+    <string name="userPrivateKey">0x</string>
+    <string name="technicianPrivateKey">0x</string>
+    <string name="developerPrivateKey">0x</string>
+</resources>
